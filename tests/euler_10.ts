@@ -13,4 +13,15 @@ describe("Euler 10", () => {
 
     assert.isNumber(euler_10(threshold))
   })
+
+  it("finds sum of all primes which are below 10", () => {
+    const threshold = 10
+
+    const sumOfMultiplies = euler_10(threshold)
+
+    assert(
+      sumOfMultiplies == 17,
+      `Wrong result provided. Logic incorrect. Is ${sumOfMultiplies} should be 17.`
+    )
+  })
 })
