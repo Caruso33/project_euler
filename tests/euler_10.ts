@@ -24,4 +24,11 @@ describe("Euler 10", () => {
       `Wrong result provided. Logic incorrect. Is ${sumOfMultiplies} should be 17.`
     )
   })
+
+  it("finds sum of all primes which are below 2mil", () => {
+    const threshold = 2 * 1e6
+
+    const sumOfMultiplies = euler_10(threshold)
+    console.log(`The solution for euler_10 is ${sumOfMultiplies}`)
+  })
 })
