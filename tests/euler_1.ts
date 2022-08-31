@@ -7,4 +7,10 @@ describe("Euler 1", () => {
 
     assert.doesNotThrow(() => euler_1(threshold))
   })
+
+  it("returns a single number as result", () => {
+    const threshold = 10
+
+    assert.isNumber(euler_1(threshold))
+  })
 })
