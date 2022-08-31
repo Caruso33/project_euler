@@ -1,14 +1,10 @@
-import { hello } from "../src/euler_1"
-import { expect } from "chai"
+import euler_1 from "../src/euler_1"
+import { assert } from "chai"
 
 describe("Euler 1", () => {
-  // the tests container
-  it("checking return", () => {
-    // the single test
-    const arg = "Bob"
+  it("takes an argument as the threshold", () => {
+    const threshold = 10
 
-    const helloReturn = hello(arg)
-
-    expect(helloReturn).to.equal(`Hello ${arg}!`)
+    assert.doesNotThrow(() => euler_1(threshold))
   })
 })

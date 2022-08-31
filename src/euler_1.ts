@@ -1,5 +1,5 @@
-const world = "world"
+// https://projecteuler.net/problem=1
 
-export function hello(who: string = world): string {
-  return `Hello ${who}!`
+export default function euler_1(threshold: number): void {
+  console.log("Not implemented")
 }
