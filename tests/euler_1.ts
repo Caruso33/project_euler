@@ -21,4 +21,11 @@ describe("Euler 1", () => {
 
     assert(sumOfMultiplies == 23, "Wrong result provided. Logic incorrect.")
   })
+
+  it("finds sum of all multiplies of 3 and 5 which are below 1000", () => {
+    const threshold = 1000
+
+    const sumOfMultiplies = euler_1(threshold)
+    console.log(`The solution for euler_1 is ${sumOfMultiplies}`)
+  })
 })
