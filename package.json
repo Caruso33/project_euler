@@ -8,7 +8,8 @@
   "scripts": {
     "tsc": "tsc",
     "tsc:watch": "tsc -w",
-    "test": "mocha -r ts-node/register 'tests/**/*.ts'"
+    "test": "mocha -r ts-node/register 'tests/**/*.ts'",
+    "test:watch": "mocha -r ts-node/register --watch-extensions ts --watch --watch-files src,tests/**/*.ts tests/**/*.ts"
   },
   "devDependencies": {
     "@types/chai": "^4.3.3",
