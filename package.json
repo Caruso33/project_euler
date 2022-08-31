@@ -1,0 +1,15 @@
+{
+  "name": "project_euler",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Caruso33/project_euler.git",
+  "author": "Tobias Leinss <caruso33@web.de>",
+  "license": "MIT",
+  "scripts": {
+    "tsc": "tsc",
+    "tsc:watch": "tsc -w"
+  },
+  "devDependencies": {
+    "typescript": "^4.8.2"
+  }
+}
