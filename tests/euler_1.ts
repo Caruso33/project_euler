@@ -13,4 +13,12 @@ describe("Euler 1", () => {
 
     assert.isNumber(euler_1(threshold))
   })
+
+  it("finds sum of all multiplies of 3 and 5 which are below 10", () => {
+    const threshold = 10
+
+    const sumOfMultiplies = euler_1(threshold)
+
+    assert(sumOfMultiplies == 23, "Wrong result provided. Logic incorrect.")
+  })
 })
